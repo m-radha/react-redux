@@ -1,12 +1,13 @@
 
-import './App.css';
+
 import Home from './components/Home';
+import Opacity from './components/Opacity';
 
 function App() {
   return (
     <div className="App">
-        <h1>Welcome</h1>
         <Home/>
+        <Opacity/>
     </div>
   );
 }
