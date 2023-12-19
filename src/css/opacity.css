@@ -1,0 +1,25 @@
+.opacity-container{
+    width: 200px;
+    height: 50px;
+    background-color:blueviolet;
+    color: white;
+    opacity: 0.7;
+    text-align: center;
+}
+.curser-container {
+    cursor: pointer;
+    width: 100px;
+    background-color: aqua;
+}
+
+.overflow-container {
+    width: 250px;
+    height: 100px;
+    overflow: hidden;
+}
+
+.overflow-content {
+    width: 250px;
+      height: 100px;
+      background-color: #f0f0f0;
+}

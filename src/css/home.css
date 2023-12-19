@@ -1,0 +1,26 @@
+.box1 {
+    background-color: blue;
+    padding:20px 20px;
+    margin:20px 20px;
+    border:2px solid black;
+    box-sizing: border-box;
+}
+
+.container {
+    position: relative;
+    height: 200px;
+    width: 200px;
+  }
+  
+  .box2 {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    width: 100px;
+    height: 100px;
+    background-color: #f0f0f0;
+  }
+  
+
+
+

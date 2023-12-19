@@ -1,0 +1,21 @@
+/* .container {
+    perspective: 300px;
+} */
+
+.box {
+    width: 100px;
+    height: 200px;
+    background-color: aqua;
+    /* transform-style: preserve-3d; */
+    transition: transform 0.5s ease; 
+}
+
+.box p {
+    color: white;
+    text-align: center;
+    transform:scaleZ(25px);
+}
+
+.box:hover {
+    transform: rotateY(90deg) rotateX(90deg) scale(1.2) skew(5deg);
+  }
